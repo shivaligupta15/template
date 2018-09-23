@@ -1,0 +1,427 @@
+@font-face{
+    font-family: myfont;
+    src: url(../myriad-pro2-cufonfonts/MyriadPro-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body *{
+    box-sizing: border-box;
+    font-family: myfont;
+}
+.container{
+    width: 1170px;
+    border: 1px solid red;
+    margin: auto;
+    padding: 20px 0;
+}
+.container:after,
+.timezone:after,
+.main-time:after,
+.row:after{
+    display: table;
+    clear: both;
+    content: '';
+}
+.row{
+    margin: 0 -15px;
+
+}
+[class*="box-"] {
+    float: left;
+    padding: 0 15px;
+}
+.box-1 {width: 8.33%;}
+.box-2 {width: 16.66%;}
+.box-3 {width: 25%;}
+.box-4 {width: 33.33%;}
+.box-5 {width: 41.66%;}
+.box-6 {width: 50%;}
+.box-7 {width: 58.33%;}
+.box-8 {width: 66.66%;}
+.box-9 {width: 75%;}
+.box-10 {width: 83.33%;}
+.box-11 {width: 91.66%;}
+.box-12 {width: 100%;}
+
+header{
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+}
+.logo{
+    width: 200px;
+    float: left;
+}
+.logo img{
+    width: 100%;
+    max-width: 100%;
+}
+.nav-left ul{
+    list-style: none;
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.nav-left ul li{
+    display: inline-block;
+    padding: 9px;
+}
+.nav-left ul li a{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: black;
+    border-right: 1px solid black;
+    padding-right: 18px;
+    font-size: 12px;
+   
+}
+.nav-left ul li:last-child a{
+    border: none;
+}
+.nav-right{
+    float: right;
+}
+.nav-right ul{
+    list-style: none;
+    padding-top: 15px;
+}
+.nav-right ul li{
+    display: inline-block;
+    padding: 0 0 0 5px;
+}
+.nav-right ul li a{
+    display: inline-block;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid blue;
+    border-radius: 25px;
+    padding: 3px;
+ 
+}
+.banner{
+    width: 90%;
+    margin: auto;
+    padding: 0 15px;
+}
+.banner img{
+    width: 100%;
+    height: 450px;
+}
+.main-time{
+    width: 80%;
+    margin: auto;
+}
+.time{
+    width: 70%;
+    padding: 20px 0;
+    float: left;
+}
+.timezone{
+    width: 100%;
+}
+.timezone ul{
+    list-style: none;
+}
+.timezone ul li{
+    float: left;
+    font-size: 50px;
+    padding-right: 7px;
+  
+}
+.timezone ul li sapn{
+    font-size: 50px;
+    
+}
+.timezone ul li:last-child span{
+    padding-left: 15px;
+}
+.number ul{
+    list-style: none;
+    
+}
+.number ul li,
+.number ul li span{
+    display: inline-block;
+    padding-right: 46px;
+    font-size: 10px;
+    color: #41b3f0;
+   
+}
+.join_buy{
+    width: 30%;
+    float: left;
+    margin: 40px 0;
+    border-radius: 25px;
+    text-align: center;
+    padding: 5px 0;
+    background-color: red;
+    color: #fff;
+   
+}
+.edu_work{
+    position: relative;
+    width: 20%;
+}
+.edu_work img{
+    width: 100%;
+}
+.edu{
+    position: absolute;
+    top:70px;
+    left: 4px;
+    text-align: center;
+}
+.edu span{
+    font-size: 28px;
+}
+.edu h2{
+    font-size: 29px;
+   
+}
+.border-r{
+    border: 1px solid blue;
+    border-radius: 25px;
+}
+.edu_training img{
+    width: 100%;
+    margin: auto;
+}
+.edu_training h3,
+.edu_training span,
+.edu_training p{
+    text-align: center;
+    display: block;
+    color: gray;
+    font-weight: bold;
+}
+.edu_training h3,
+.edu_training span{
+    font-size: 20px;  
+  
+}
+.edu_training p{
+    padding: 15px 0;
+}
+.border-r img{
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+.wallpaper{
+    width: 30%;
+    margin: auto;
+    padding: 40px 0;
+}
+.wallpaper h3{
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+    background-color: red;
+}
+.wallpaper span{
+    color: red;
+}   
+.wallpaper span,
+.wallpaper h3{
+    border-radius: 25px;
+    border: 1px solid red;
+    padding: 8px 15px;
+    font-weight: bold;
+}
+.the_solution{
+    background-image: url(../images/asasas.png);
+    background-size: cover;
+    background-position: center;
+    height: 850px;
+} 
+.edu_work1{
+    float: left;
+}
+.earn{
+    float: none;
+    margin: auto;
+    padding-top: 187px;
+    padding-left: 24px;
+}
+.earn h3,
+.learn h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.earn ul,
+.learn ul{
+    list-style: none;
+}
+.earn ul li,
+.learn ul li{
+    color: black;
+    line-height: 28px;
+}
+.icon{
+    font-size: 10px;
+    color: blue;
+}
+.learn{
+    padding-top:140px;
+    margin-left: 17%;
+}
+.reach{
+    padding-top: 122px;
+}
+.edu_white{
+    position: absolute;
+    top: 107px;
+    left: 10px;
+}
+.edu_white h2{
+    font-size: 29px;
+}
+.premium{
+    float: left;
+}
+.premium img{
+    width: 100%;
+}
+.round{
+    float: none;
+    position: relative;
+}
+.mew_white{
+    padding: 20px 0;
+    margin-left: 40px;
+}
+.mew_white h1{
+    font-weight: bolder;
+    font-size: 40px;
+}
+.mew_white p{
+    line-height: 27px;
+    color: gray;
+}
+
+.view{
+    padding: 7px 10px;
+    width: 60%;
+    margin-bottom: 20px;
+    float: none;
+    font-weight: bolder;
+}
+.read{
+    display: block;
+    float: left;
+}
+.read span{
+    font-weight: bolder;
+}
+.economy{
+    background-color: #343ea6;
+}
+.full_future{
+    float: left;
+}
+.full_future h5{
+    font-size: 30px;
+    text-align: justify;
+    color: #fff;
+    padding-bottom: 20px;
+    font-weight: lighter; 
+}
+.full_future span{
+    font-weight: 1000;
+}
+.full_future p{
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+/* .future_arrow{
+    float: left;
+} */
+.future_arrow{
+    background-image: url(../images/asd.png);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+.edu_btn{
+    width: 60%;
+}
+.edu_btn img{
+    width: 100%;
+}
+.pro{
+    width: 60%;
+}
+.pro img{
+    width: 70%;
+}
+.pro_p{
+    text-align: center;
+    position: absolute;
+    left: 0px;
+    top: 90px;
+}
+
+.popular p{
+    float: right;
+    text-align: justify;
+    padding-right: 20px;
+}
+.mb{
+   margin-left: 40px;
+   margin-top: 20px;
+}
+.mb_ph{
+    padding-left: 30px;
+}
+.earn_app{
+    float: left;
+    padding-top: 110px;
+}
+.earn_app span{
+    display: block;
+    text-align: center;
+    font-size: 38px;
+    font-weight: bolder;
+}
+.sky_blue{
+    background-color: #f1f7ff;
+}
+.icon1{
+    color: #e2683f;
+}
+.grp h5{
+    font-size: 25px;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+.grp ul{
+    list-style: none;
+}
+.grp ul li{
+    color: #000;
+}
+.grp_1{
+
+}
+.grp_1 img{
+    width: 100%;
+}
+.all{
+    padding-top: 80px;
+}
+.ft_rt{
+    float: right;
+}
+.tok{
+    padding-left: 37px;
+    padding-top: 15px;
+}
+.token{
+    margin: auto;
+}
