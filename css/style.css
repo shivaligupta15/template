@@ -16,6 +16,10 @@ body *{
     margin: auto;
     padding: 20px 0;
 }
+p{
+    line-height: 24px;
+font-size: 14px;
+}
 .container:after,
 .timezone:after,
 .main-time:after,
@@ -183,7 +187,7 @@ header{
    
 }
 .border-r{
-    border: 1px solid blue;
+    border: 4px dashed #f0f5ff;
     border-radius: 25px;
 }
 .edu_training img{
@@ -275,11 +279,12 @@ header{
 }
 .edu_white{
     position: absolute;
-    top: 107px;
-    left: 10px;
+    top: 140px;
+    left: 0;
+    right: 0;
 }
 .edu_white h2{
-    font-size: 29px;
+    font-size: 37px;
 }
 .premium{
     float: left;
@@ -289,7 +294,11 @@ header{
 }
 .round{
     float: none;
-    position: relative;
+    width: 300px
+}
+
+.round img {
+    max-width: 100%;
 }
 .mew_white{
     padding: 20px 0;
@@ -311,33 +320,29 @@ header{
     float: none;
     font-weight: bolder;
 }
-.read{
-    display: block;
-    float: left;
-}
+
 .read span{
     font-weight: bolder;
 }
 .economy{
     background-color: #343ea6;
+    padding: 30px 0;
 }
 .full_future{
-    float: left;
-}
-.full_future h5{
-    font-size: 30px;
-    text-align: justify;
     color: #fff;
-    padding-bottom: 20px;
-    font-weight: lighter; 
 }
-.full_future span{
-    font-weight: 1000;
+.full_future h2{
+    font-size: 40px;
+    font-weight: normal;
+}
+.full_future h3{
+    font-size: 38px
 }
 .full_future p{
     color: #fff;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 40px
 }
 /* .future_arrow{
     float: left;
@@ -346,31 +351,51 @@ header{
     background-image: url(../images/asd.png);
     background-position: center;
     background-size: cover;
-    height: 400px;
+    background-position: left;
 }
 .edu_btn{
-    width: 60%;
+  
 }
 .edu_btn img{
     width: 100%;
 }
 .pro{
-    width: 60%;
+    width: 100%;
 }
 .pro img{
-    width: 70%;
+    max-width: 100%;
+
+    width: 300px;
+    
+    display: block;
+    
+    text-align: center;
+    
+    text-align: center;
+    
+    margin: 0 auto;
 }
 .pro_p{
     text-align: center;
     position: absolute;
     left: 0px;
+    right: 0;
     top: 90px;
 }
 
+.pro_p h2 {
+    font-size: 34px;
+    font-weight: normal;
+}
+
+.pro_p h3 {
+    font-size: 38px
+}
+
 .popular p{
-    float: right;
-    text-align: justify;
+    text-align: right;
     padding-right: 20px;
+    margin-top: 20px
 }
 .mb{
    margin-left: 40px;
@@ -409,9 +434,7 @@ header{
 .grp_1{
 
 }
-.grp_1 img{
-    width: 100%;
-}
+
 .all{
     padding-top: 80px;
 }
@@ -425,3 +448,39 @@ header{
 .token{
     margin: auto;
 }
+
+
+/* lakhvir */
+
+header {
+    background-image: url('../images/banner.png')
+}
+
+
+
+.countdown-amount:after{
+    content: ":";
+    position: absolute;
+    right: 0px;
+    color: gray;
+}
+
+.countdown-section:last-child .countdown-amount:after {
+    content: ""
+}
+.btn {
+    padding: 5px;
+min-width: 200px;
+font-size: 20px;
+}
+
+.btn-red {
+    background-color: red;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 5px 20px;
+    margin: 20px 0;
+}
+
