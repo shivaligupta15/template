@@ -425,3 +425,100 @@ header{
 .token{
     margin: auto;
 }
+.more_one{
+    width: 50%;
+}
+.more_1{
+    padding: 62px;
+    padding-top: 46px;
+}
+.more_1 h2{
+    font-size: 29px;
+}
+.more_1 span{
+    font-size: 30px;
+}
+.ques{
+    padding-top: 152px;
+    font-size: 44px;
+}
+.detail{
+
+}
+.detail ul{
+    list-style: none;
+}
+.detail ul li{
+    display: inline-block;
+}
+.form{
+    width: 400px;
+    margin: 0 auto;
+}
+.form input[type='text']{
+    width: 100%;
+    color: gray;
+    border: none;
+    border-bottom: 1px solid #e3f5fd;
+    padding-top: 10px;
+    margin: 12px auto;
+}
+.form ::placeholder{
+    text-align: center;
+}   
+.form button,
+.end button{
+    display: block;
+    margin: 10px auto;
+    color: #fff;
+    background-color: red;
+    font-weight: bolder;
+    border: none;
+    border-radius: 25px;
+    padding: 7px 30px;
+}
+footer{
+    background-image: url(../images/footer.png);
+    background-size: cover;
+    background-position: center;
+}
+.end{
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 60px;
+    position: relative;
+}
+.end h6{
+    font-size: 15px;
+    font-weight: bolder;
+    color: #000;
+    text-align: center;
+}
+.end input{
+    display: block;
+    margin: auto;
+    top: 10px;
+    width: 80%;
+    /* float: left; */
+    padding: 10px 0px;
+    border-radius: 25px;
+    border: none;
+}
+.end ::placeholder{
+    padding-left: 30px;
+}
+.end button{
+    position: absolute;
+    top: 70px;
+    right: 47px;
+    /* float: left; */
+}
+.end ul{
+    list-style: none;
+    text-align: center;
+}
+.end ul li{
+    display: inline-block;
+    padding-top: 130px;
+    padding-left: 20px;
+}
