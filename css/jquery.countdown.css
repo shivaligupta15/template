@@ -15,7 +15,7 @@
 .countdown-section {
 	display: block;
 	float: left;
-	font-size: 35px;
+	font-size: 30px;
 	text-align: center;
 }
 .countdown-amount {
@@ -46,4 +46,21 @@
 .countdown-descr {
 	display: block;
 	width: 100%;
+}
+
+#defaultCountdown1:after{
+	display: table;
+	content: "";
+	clear: both;
+}
+
+#defaultCountdown1 .countdown-amount{
+	font-size: 170%;
+}
+
+
+@media only screen and (max-width: 600px) {
+	.countdown-amount{
+		font-size: 100%;
+	}
 }
